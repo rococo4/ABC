@@ -1,0 +1,19 @@
+-mov rax, rsp
+-mov rbx, rax
++mov rsp, rax
+
+-mov rax, QWORD PTR [rax]
+-mov rdi, rax
++mov rdi, QWORD PTR [rax]
+
+-mov rax, QWORD PTR -80[rbp]
+-mov rdi, rax
+-mov rdi, QWORD PTR -80[rbp]
+ 
+-mov eax, DWORD PTR -132[rbp]
+-mov esi, eax
+-mov esi, DWORD PTR -132[rbp]
+
+ удалены cdqe в обоих файлах
+ 
+ 

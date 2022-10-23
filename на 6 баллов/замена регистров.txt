@@ -1,0 +1,2 @@
+r12d - i
+r15d - i в task.s
